@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreenActivity">
+
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       android:layout_gravity="center_vertical"
+       android:gravity="center"
+       >
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginBottom="25dp"
+           android:text="  Welcome to Pujagoodies  "
+           android:textColor="@color/black"
+           android:textSize="25dp"
+           android:textStyle="bold"
+           android:fontFamily="sans-serif-condensed-medium"
+           android:layout_gravity="center_horizontal"
+           android:gravity="center"
+           android:background="@drawable/loginemailbg"
+           />
+       <ImageView
+           android:id="@+id/SplashScreenImage"
+           android:layout_width="300dp"
+           android:layout_height="300dp"
+           android:layout_marginStart="50dp"
+           android:layout_gravity="center_vertical"
+           android:src="@drawable/pujagoodies"
+           />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="10dp"
+           android:text="Presented By HatCoder"
+           android:textColor="@color/black"
+           android:textSize="15dp"
+           android:textStyle="italic"
+           android:fontFamily="sans-serif-condensed-medium"
+           android:layout_gravity="center_horizontal"
+           android:gravity="center"/>
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="5dp"
+           android:text="Made in India"
+           android:textColor="@color/black"
+           android:textSize="15dp"
+           android:textStyle="italic"
+           android:fontFamily="sans-serif-condensed-medium"
+           android:layout_gravity="center_horizontal"
+           android:gravity="center"/>
+
+   </LinearLayout>
+
+
+</FrameLayout>
